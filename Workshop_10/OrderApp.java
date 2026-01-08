@@ -12,7 +12,7 @@ public class OrderApp
         System.out.println("---------- Normal Order Details ----------");
         System.out.println(no);
         
-        System.out.println("");
+        System.out.println();
         
         System.out.println("---------- Premium Order Details ----------");
         System.out.println("Enter the discount rate :");

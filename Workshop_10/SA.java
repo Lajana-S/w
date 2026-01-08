@@ -20,6 +20,8 @@ public class SA extends Account
         return super.calInt() + (this.rate * super.calInt());
     }
     
+    
+    @Override
     public String toString()
     {
         return "Account No. : "+super.getAn()+"\nHolder Name : "+super.getHn()+"\nBalance : Rs."+super.getB()+"\nInterest Rate : "+this.rate+"%"+"\nTotal Balance : Rs."+calInt(rate);

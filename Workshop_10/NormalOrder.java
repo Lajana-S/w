@@ -12,6 +12,7 @@ public class NormalOrder extends Order
         return super.calFinalAmount();
     }
     
+    
     @Override
     public String toString()
     {

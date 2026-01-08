@@ -30,6 +30,7 @@ public class Doctor extends Person
         this.consultationFee = consultationFee;
     }
     
+    
     @Override
     public double calculateSalary()
     {
@@ -41,6 +42,7 @@ public class Doctor extends Person
         double emergency = emergencyCases * perEmergency;
         return super.calculateSalary() + emergency + this.consultationFee;
     }
+    
     
     @Override
     public String toString()

@@ -12,6 +12,8 @@ public class CA extends Account
         return super.calInt();
     }
     
+    
+    @Override
     public String toString()
     {
         return "Account No. : "+super.getAn()+"\nHolder Name : "+super.getHn()+"\nBalance : Rs."+calInt();

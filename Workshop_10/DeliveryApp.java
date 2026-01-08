@@ -12,6 +12,7 @@ public class DeliveryApp
         System.out.println("---------- Bike Delivery Details ----------");        
         System.out.println("Any Extra Delivery? (Y/N)");
         char a = scan.next().charAt(0);
+        
         if(a == 'y' || a == 'Y')
         {
             System.out.println("Enter the number of extra order: ");

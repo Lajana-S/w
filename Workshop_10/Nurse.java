@@ -12,11 +12,13 @@ public class Nurse extends Person
         this.extraAllowance = extraAllowance;
     }
     
+    
     @Override
     public String toString()
     {
         return "---------- Nurse Details ----------\nNurse Id : "+super.getId()+"\nNurse Name : "+super.getName()+"\nShift : "+this.shift+"\nStaff Base Salary : Rs."+super.calculateSalary()+"\nTotal Salary : Rs."+calculateSalary();
     }
+    
     
     @Override
     public double calculateSalary()

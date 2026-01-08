@@ -16,6 +16,7 @@ public class PremiumOrder extends Order
     {
         return super.calFinalAmount() - disAmount;
     }
+
     
     @Override
     public String toString()

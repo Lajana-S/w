@@ -11,6 +11,7 @@ public class HospitalApp
         
         System.out.println("Does the doctor take emergency cases? (Y/N)"); 
         char a = scan.next().charAt(0);
+        
         if(a == 'Y' || a == 'y')
         {
             System.out.println("Enter the number of emergency cases :");

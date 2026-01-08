@@ -14,6 +14,7 @@ public class ExamApp
         
         System.out.println("Want to add grace marks? (Y/N)");
         char a = scan.next().charAt(0);
+        
         if(a == 'y' || a == 'Y')
         {
             System.out.println("Enter the grace marks :");
@@ -36,6 +37,7 @@ public class ExamApp
         
         System.out.println("Want to add grace marks? (Y/N)");
         a = scan.next().charAt(0);
+        
         if(a == 'y' || a == 'Y')
         {
             System.out.println("Enter the grace marks :");

@@ -19,6 +19,7 @@ public class SS extends Student
         return super.calRel() + gm;
     }
     
+    
     @Override
     public String toString()
     {

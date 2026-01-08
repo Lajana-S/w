@@ -8,10 +8,12 @@ public class BankApp
         CA c1= new CA(7434,"Current_1", 2304.2);
         
         System.out.println("---------- Saving Account Details ----------");
+        
         System.out.println(s1);
         System.out.println();
         
         System.out.println("---------- Current Account Details ----------");
+        
         System.out.println(c1);
     }
 }

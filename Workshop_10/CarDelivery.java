@@ -18,6 +18,8 @@ public class CarDelivery extends DeliveryPartner
         return super.calPay() + (600 * exOrder);
     }
     
+    
+    @Override
     public String toString()
     {
         return "Partner Id : "+super.getPartnerId()+"\nParent Name : "+super.getName()+"\nBase Pay : Rs."+super.calPay();
